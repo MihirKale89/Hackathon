@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_category"
+        android:maxLines="3"
+        android:id="@+id/textViewJudgeScoreCategoryListItem"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/achieved_score"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textViewJudgeAchievedScoreListItem"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColorLink="@color/accent_material_dark"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textViewJudgeAchievedScoreValueListItem"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColorLink="@color/accent_material_dark"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:textSize="24dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Maximum_score"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textViewJudgeTopScoreListItem"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColorLink="@color/accent_material_dark"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textViewJudgeTopScoreValueListItem"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColorLink="@color/accent_material_dark"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grade_here"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textSize="24dp"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarGradeCategoryListItem" />
+
+</LinearLayout>

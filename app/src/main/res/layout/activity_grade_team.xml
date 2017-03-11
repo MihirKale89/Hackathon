@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="app.hackathon.csusm.hackathon.JudgesActivities.GradeTeamActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_name"
+        android:id="@+id/textViewJudge_Grade_Team"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/abc_action_bar_stacked_max_height" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_Grade_Score_Categories"
+        android:layout_below="@+id/textViewJudge_Grade_Team"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/abc_action_bar_default_padding_material"
+            android:padding="@dimen/abc_control_inset_material"
+            android:onClick="showJudgeMenu"
+            android:background="@color/accent_material_light"
+            android:id="@+id/button_judge_show_menu" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_grades"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/abc_action_bar_default_padding_material"
+            android:padding="@dimen/abc_control_inset_material"
+            android:onClick="saveScores"
+            android:background="@color/accent_material_light"
+            android:id="@+id/button_save_grades" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_name"
+        android:id="@+id/textViewCategoryResultTeamName"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judge_name"
+        android:id="@+id/textViewCategoryResultJudgeName"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_category"
+        android:id="@+id/textViewCategoryResultScoreCategory"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_score"
+        android:id="@+id/textViewCategoryResultCategoryScore"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+</LinearLayout>

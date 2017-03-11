@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_name"
+        android:id="@+id/textViewGradeTeamName"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/challenge_name"
+        android:id="@+id/textViewGradeChallengeName_FK"
+        android:textStyle="bold"
+        android:textColorLink="@color/accent_material_dark"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grade_team"
+        android:id="@+id/buttonGradeTeam" />
+
+
+</LinearLayout>

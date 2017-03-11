@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="app.hackathon.csusm.hackathon.Activities.EditChallengeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenge name"
+        android:fontFamily="@string/abc_action_bar_home_description_format"
+        android:textSize="24dp"
+        android:id="@+id/textViewEditChallengeName"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextChallengeName"
+        android:text=""
+        android:singleLine="true"
+        android:gravity="center"
+        android:fontFamily="@string/abc_action_bar_home_description_format"
+        android:textSize="24dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_alignTop="@+id/textViewEditChallengeName"
+        android:layout_toRightOf="@+id/textViewEditChallengeName"
+        android:layout_toEndOf="@+id/textViewEditChallengeName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/buttonAddChallengeMain"
+        android:onClick="deleteChallenge"
+        android:layout_alignTop="@+id/buttonEditTeamMain"
+        android:layout_alignLeft="@+id/editTextChallengeName"
+        android:layout_alignStart="@+id/editTextChallengeName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/buttonEditTeamMain"
+        android:onClick="editChallenge"
+        android:layout_below="@+id/editTextChallengeName"
+        android:layout_toLeftOf="@+id/editTextChallengeName"
+        android:layout_toStartOf="@+id/editTextChallengeName"
+        android:layout_marginTop="117dp" />
+
+
+</RelativeLayout>

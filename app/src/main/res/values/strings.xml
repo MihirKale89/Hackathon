@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContestContentGenerator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="edit">Edit </string>
+    <string name="delete">Delete</string>
+    <string name="menu">Menu</string>
+    <string name="add_challenge">Add Challenge</string>
+    <string name="add_team">Add Team</string>
+    <string name="add_judge">Add Judge</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="title_section1">Challenges</string>
+    <string name="title_section2">Teams</string>
+    <string name="title_section3">Members</string>
+    <string name="title_section4">Judges</string>
+    <string name="contest_grading_app">Contest Grading App</string>
+
+    <string-array name="titles">
+        <item>@string/title_section1</item>
+        <item>@string/title_section2</item>
+        <item>@string/title_section3</item>
+        <item>@string/title_section4</item>
+    </string-array>
+
+    <string name="greeting_image_content_description">This is the greeting image</string>
+    <string name="login">Login</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_challenges">ChallengesActivity</string>
+    <string name="title_activity_teams">TeamsActivity</string>
+    <string name="title_activity_judges">JudgesActivity</string>
+    <string name="title_activity_edit_judge">EditJudgeActivity</string>
+    <string name="title_activity_edit_challenge">EditChallengeActivity</string>
+    <string name="title_activity_edit_team">EditTeamActivity</string>
+    <string name="title_activity_add_judge">AddJudgeActivity</string>
+    <string name="title_activity_add_team">AddTeamActivity</string>
+    <string name="title_activity_add_challenge">AddChallengeActivity</string>
+    <string name="title_activity_scores">ScoresActivity</string>
+    <string name="score_categories">Score Categories</string>
+    <string name="score_category">Score Category: </string>
+    <string name="Maximum_score">Maximum score: </string>
+    <string name="edit_score_category">Edit Score Category </string>
+    <string name="add_score_category">Add Score Category</string>
+    <string name="title_activity_add_score">AddScoreActivity</string>
+    <string name="title_activity_edit_score">EditScoreActivity</string>
+    <string name="delete_score_category">Delete Score Category</string>
+    <string name="editTeam">Edit Team</string>
+    <string name="team_name">Team: </string>
+    <string name="challenge_name">Challenge: </string>
+    <string name="select_challenge">Select Challenge </string>
+    <string name="edit_challenge_fk">Edit Challenge </string>
+    <string name="judge_name">Judge name: </string>
+    <string name="judge_user_id">Judge User Id</string>
+    <string name="title_activity_view_teams">ViewTeamsActivity</string>
+    <string name="grade_team">Grade Team</string>
+    <string name="log_out">Log Out</string>
+    <string name="achieved_score">Achieved Score:</string>
+    <string name="grade_here">Grade here: </string>
+    <string name="title_activity_grade_teams">GradeTeamsActivity</string>
+    <string name="save_grades">Save Grades</string>
+    <string name="title_activity_judges_menu">JudgesMenuActivity</string>
+    <string name="judge_view_teams">View Teams</string>
+    <string name="sort_by">Sort by: </string>
+    <string name="teams_result">Teams result - Grand Total</string>
+    <string name="title_activity_teams_result">TeamsResultActivity</string>
+    <string name="grand_score">Grand Score: </string>
+    <string name="save">Save</string>
+    <string name="save_score_category">Save Score Category</string>
+    <string name="title_activity_category_teams_result">CategoryTeamsResultActivity</string>
+    <string name="teams_result_tv">Teams Result</string>
+    <string name="category_score">Category score:</string>
+    <string name="category_ranks_teams_result">Teams Result - Category ranks</string>
+    <string name="category_teams_result">Teams Result - All Categories</string>
+    <string name="title_activity_category_rank">CategoryRankActivity</string>
+    <string name="rank">Rank</string>
+    <string name="total_score">Total Score</string>
+    <string name="team">Team</string>
+    <string name="title_activity_delete_details">DeleteDetailsActivity</string>
+    <string name="delete_challenges">Delete All Challenges</string>
+    <string name="delete_teams">Delete All Teams</string>
+    <string name="delete_judges">Delete All Judges</string>
+    <string name="delete_score_categories">Delete All Scoring Categories</string>
+    <string name="delete_judge_scores">Delete All Judge Scores</string>
+    <string name="delete_all_details">Delete All Details</string>
+    <string name="delete_details">Delete Details</string>
+    <string name="team_name_label">Team name</string>
+
+</resources>
